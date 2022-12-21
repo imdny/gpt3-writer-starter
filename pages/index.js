@@ -114,16 +114,9 @@ const Home = () => {
           )}
         </div>
       </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
+      <div className="bmc-container grow">
+        <a href="https://www.buymeacoffee.com/imdny" target="_blank">
+          <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a banana&emoji=🍌&slug=imdny&button_colour=735d78&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" />
         </a>
       </div>
     </div>

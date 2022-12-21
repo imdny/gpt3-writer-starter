@@ -221,6 +221,12 @@ input {
   cursor: default;
 }
 
+.bmc-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
 .badge-container {
   display: flex;
   bottom: 20px;
@@ -241,7 +247,6 @@ input {
   border-top-width: 1px;
   background-color: #735d78;
   border-radius: 54.3478% / 238.095%;
-  /* filter: grayscale(1); */
   transform: none;
   transform-origin: 50% 50% 0px;
   font-size: 14px;
